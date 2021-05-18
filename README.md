@@ -1,21 +1,23 @@
 # Automated AKS Upgrade
 
-## Reference
+## 1.0 - Reference
 
 - https://docs.microsoft.com/en-us/azure/aks/upgrade-cluster
 
-## Possible Upgrade issues
+## 2.0 - Possible Upgrade issues
 
 - Incompatible APIs in the new version (review the documentations)
 - Incompatible custom object
 
 > **Note:** test the upgrade
 
-## Service connection
+## 3.0 - Yaml Pipeline
+
+### 3.1 - Service connection
 
 - Create a service connection with access to both resource groups (AKS and MC_*)
 
-## Yaml Pipeline
+### 3.2 - Pipeline
 
 ```yaml
 # Starter pipeline
