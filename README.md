@@ -29,7 +29,6 @@ trigger:
 variables:
   rgName: 'rg-aks-eus-demo'
   aksName: 'alemoraks'
-  #connection: 'aksserviceconnection'
   connection: 'superconnection'
   nextAKSversion: '1.20.5'
 
